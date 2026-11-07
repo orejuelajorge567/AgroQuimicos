@@ -34,7 +34,9 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: var(--texto);
-    background: var(--fondo);
+    background:
+        linear-gradient(rgba(246, 247, 246, .88), rgba(246, 247, 246, .88)),
+        url("../img/images.jpg") center / cover fixed no-repeat;
     -webkit-font-smoothing: antialiased;
 }
 
