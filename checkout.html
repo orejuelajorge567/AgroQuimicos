@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form action="/procesar-pedido" method="POST">
+    <header class="site-header">
+        <h1>Agroquimicos la Cordialidad</h1>
+        <p>Datos de entrega</p>
+    </header>
+
+    <main>
+<form class="tarjeta" action="/procesar-pedido" method="POST">
         
      
         <div class="campo">
@@ -44,6 +51,10 @@
         <button type="submit">Enviar Pedido</button>
 
     </form>
-        
+    </main>
+
+    <footer class="site-footer">
+        <p>Agroquimicos · Barranquilla</p>
+    </footer>
 </body>
 </html>
